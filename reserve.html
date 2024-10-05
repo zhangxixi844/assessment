@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reserve</title>
+    <script src="sj\booktable.js"></script>
+    <link rel="stylesheet" href="css\reservestyles.css">
+    <link rel="stylesheet" href="css\font_styles.css">
+    <link rel="stylesheet" href="css\header.css">
+</head>
+
+<body>
+    <header>
+        <h1>L'Oasis Gourmande</h1>
+        <nav>
+            <b>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reserve.html">Reserve</a></li>
+                    <li><a href="group.html">Group</a></li>
+                    <li><a href="tips.html">Tips</a></li>
+                </ul>
+            </b>
+        </nav>
+        <hr>
+    </header>
+
+    <h1>Reserver</h1>
+    <form>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required min="" oninvalid="this.setCustomValidity('不能预定当天之前的日期！')"
+            oninput="this.setCustomValidity('')"><br><br>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required><br><br>
+        <label for="people">Number of people:</label>
+        <input type="number" id="people" name="people" min="1" max="10" required><br><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="contact">Connect number:</label>
+        <input type="text" id="contact" name="contact" required><br><br>
+        <button type="button" onclick="makeReservation()">Reserver</button>
+    </form>
+
+
+    <br>
+    <section class="contact">
+        <div>
+            <h4>"contact"</h4>
+            <div class="de2"></div>
+        </div>
+        
+        <p class="contact-intro">Want to experience upscale cuisine? <br>
+            Want to try a top chef's hand? <br>
+            Want to immerse yourself in a beautiful natural environment? <br>
+            You can contact us if you have any questions!<br>
+            <br>
+            <b>tel:</b>
+            <a href="tel: (304) 555-7120">(304) 555-7120</a><br>
+            <b>email:</b>
+            <a href="mailto: sgreer@example.com">sgreer@example.com</a> <br>
+        </p>
+
+    </section>
+    <footer>
+        <p>Master fan, enjoy delicious. Have a nice day.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+body{
+    background-color: #fcf6df; 
+}
+
+section{
+    margin: 0 auto;
+    width:70%;
+    max-width: 1020px;
+    min-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section#time{
+    background: url("IMG_9698.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+@font-face{
+    font-family:'type4';
+    src:url('Handwritten-English.ttf')format('truetype'),
+    url('Handwritten-English.woff')format('woff');
+ }
+ section li{
+    font-family:'type4',sans-serif;
+   font-size:28px;
+   font-weight:normal;
+ }
+ section#book p{
+    font-family:'type4',sans-serif;
+   font-size:24px;
+   font-weight:normal;
+ }
+ section#people p{
+    font-family:'type4',sans-serif;
+   font-size:24px;
+   font-weight:normal;
+ }
+ section#book a{
+    color: brown;
+ }

@@ -1,0 +1,54 @@
+
+body{
+    background-color:#fcf6df;
+    margin: 0 auto;
+	width: 70%;
+	max-width: 1020px;
+	min-width: 640px;
+    position: relative; 
+}
+
+/* 表单整体样式 */
+form {
+    display: flex;
+    flex-direction: column; /* 子元素垂直排列 */
+    align-items: center; /* 水平居中 */
+    margin: 0 auto; /* 上下外边距自动，左右对称 */
+    width: 90%; /* 表单宽度为容器宽度的90% */
+    max-width: 600px; /* 设置表单的最大宽度 */
+    padding: 20px; /* 内边距 */
+    box-sizing: border-box; /* 边框和内边距包含在宽度内 */
+}
+
+/* 表单元素样式 */
+form label,
+form input,
+form button {
+    width: 100%; /* 宽度100%，使其充满父容器 */
+    margin-bottom: 10px; /* 元素之间的间距 */
+    box-sizing: border-box; /* 边框和内边距包含在宽度内 */
+}
+
+/* 输入框和按钮的样式 */
+form input[type="date"],
+form input[type="time"],
+form input[type="number"],
+form input[type="text"] {
+    padding: 8px; /* 文本框内部的内边距 */
+    border: 1px solid #ccc; /* 边框颜色 */
+    border-radius: 4px; /* 边框圆角 */
+}
+
+/* 按钮样式 */
+form button {
+    padding: 10px;
+    background-color: #885726; /* 按钮背景颜色 */
+    color: white; /* 按钮文字颜色 */
+    border: none; /* 无边框 */
+    cursor: pointer; /* 鼠标光标变为指针 */
+    transition: background-color 0.3s ease; /* 背景颜色变化的过渡效果 */
+}
+
+form button:hover {
+    background-color: #612f16; /* 鼠标悬停时的背景颜色 */
+}

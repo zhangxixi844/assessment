@@ -1,0 +1,118 @@
+
+body, html {  
+	margin: 0;  
+	padding: 0;  
+	font-family: Arial, sans-serif;  
+}  
+
+
+header{
+	margin: 0 auto;
+	width: 70%;
+	max-width: 1020px;
+	min-width: 640px;
+    position: relative; 
+	background-color:#fcf6df;
+}
+header>nav>b {
+	display: table;
+	width: 60%;
+	margin-left: auto;
+}
+header>nav>b>ul {
+	display: table-row;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+header>nav>b>ul>li {
+	display: table-cell;
+	text-align: center;
+}
+
+
+.sidebar {  
+	background-color: #b5a98b;  
+	width: 200px;  
+	height: 100vh; /* 使其高度与视口高度相同 */  
+	position: fixed; /* 固定定位 */  
+	left: 0;  
+	top: 0;  
+	bottom: 0;  
+	overflow-y: auto; /* 如果内容超出高度，则允许滚动 */  
+}  
+
+.left-nav ul {  
+	list-style: none;  
+	margin: 0;  
+	padding: 0;  
+}  
+
+.left-nav ul li {  
+	margin: 10px 0;
+	font-family: 'type4',sans-serif  
+}  
+
+.sidebar>p{
+  font-family:'type1',sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+.sidebar>h3{
+  font-family:'type1',sans-serif;
+	text-align: center;
+	font-size: 25px;
+}
+
+.left-nav ul li a {  
+	color: #333;  
+	text-decoration: none;  
+	display: block;  
+	padding: 10px;  
+	border-left: 4px solid transparent; /* 为选中的链接添加左侧边框的占位符 */  
+}  
+
+.left-nav ul li a:hover {  
+	border-left-color: #523e02; /* 鼠标悬停时改变边框颜色 */  
+	background-color: #b49451;  
+}  
+
+.content {  
+	margin-left: 220px; /* 留出左侧导航的宽度和一定的间距 */  
+	padding: 20px;  
+}
+
+@font-face{
+	font-family:'type2';
+	src:url('DobkinPlain.ttf')format('truetype'),
+	url('DobkinPlain.woff')format('woff');
+}
+
+@font-face{
+	font-family:'type5';
+	src:url('HFRedBerries.ttf')format('truetype'),
+	url('HFRedBerries.woff')format('woff');
+}
+
+@font-face{
+	font-family:'type4';
+	src:url('Handwritten-English.ttf')format('truetype'),
+	url('Handwritten-English.woff')format('woff');
+}
+
+@font-face{
+	font-family:'type1';
+	src:url('cac_champagne.ttf')format('truetype'),
+	url('cac_champagne.woff')format('woff');
+}
+
+.header>header>h1{
+	font-family:'type2',sans-serif;
+	font-size:50px;
+	font-weight:normal;
+}
+h4{
+	font-family:'type5',sans-serif;
+		 font-size:25px;
+		 font-weight:normal;
+}

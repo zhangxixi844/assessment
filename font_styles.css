@@ -1,0 +1,62 @@
+
+ @font-face{
+   font-family:'type1';
+   src:url('cac_champagne.ttf')format('truetype'),
+   url('cac_champagne.woff')format('woff');
+}
+@font-face{
+   font-family:'type2';
+   src:url('DobkinPlain.ttf')format('truetype'),
+   url('DobkinPlain.woff')format('woff');
+}
+@font-face{
+   font-family:'type4';
+   src:url('Handwritten-English.ttf')format('truetype'),
+   url('Handwritten-English.woff')format('woff');
+}
+@font-face{
+   font-family:'type5';
+   src:url('HFRedBerries.ttf')format('truetype'),
+   url('HFRedBerries.woff')format('woff');
+}
+
+/*font*/
+body>header>h1{
+   font-family:'type2',sans-serif;
+   font-size:50px;
+   font-weight:normal;
+}
+
+.sectionTitle, h4{
+   font-family:'type5',sans-serif;
+      font-size:25px;
+      font-weight:normal;
+}
+.introduce h3{
+   font-family:'type1',sans-serif;
+      font-size:50px;
+      font-weight:normal;
+}
+
+p{
+   font-family:'type4',sans-serif;
+   font-size:20px;
+   font-weight:normal;
+}
+.introduce-text{
+   font-family:'type4',sans-serif;
+   font-size:20px;
+   font-weight:normal;
+}
+
+body>section#tips{
+   font-family:'type4',sans-serif;
+   font-size:20px;
+   font-weight:normal;
+}
+
+#dish-intro, #mate-intro, #location-intro{
+   margin-left: 20px; 
+   margin-right: 20px;
+}
+
